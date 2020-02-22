@@ -1,0 +1,45 @@
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form {
+    width: 338px;
+    height: 316px;
+    background-color: #fff;
+    display: grid;
+    grid-template-rows: 55px auto 55px;
+    justify-items: center;
+    border-radius: 8px;
+    .head{
+        background-color: #03A9F4;
+        width: 100%;
+        border-radius: 8px 8px 0px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .data{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .footer{
+        width: 100%;
+        border-radius: 0px 0px 8px 8px;
+        background-color: #EEEEEE;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        &-link{
+            width: 65%;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}
