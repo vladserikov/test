@@ -1,0 +1,8 @@
+{
+    "transforms": {
+        ".scss": ["@parcel/transformer-sass"]
+    },
+    "optimizers": {
+    "*.png": ["@parcel/optimizer-imagemin"]
+  },
+}
