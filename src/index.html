@@ -10,11 +10,20 @@
 <body>
     <div class="main">
         <form action="" class="form">
-            <div class="head">Авторитизация</div>
+            <div class="head">
+                <img src="./img/key-icon.png" alt="key" class="key">
+                <span class="text">Авторитизация</span>
+            </div>
             <div class="data">
-                <input type="text" class="email" id="email" placeholder="Email">
-                <input type="email" class="pass" id="pass" placeholder="Пароль">
-                <input type="submit" class="submit" id="submit" value="Войти">
+                <label class="input" for="email">
+                    <input type="text" class="email" id="email" placeholder="Email">
+                    <img src="./img/email-icon.png" alt="" class="input-img">
+                </label>
+                <label class="input" for="pass">
+                    <input type="password" class="pass" id="pass" placeholder="Пароль">
+                    <img src="./img/lock-icon.png" alt="" class="input-img">
+                </label>
+                <button type="submit" class="submit" id="submit">Войти</button>
             </div>
             <div class="footer">
                 <div class="footer-link">
